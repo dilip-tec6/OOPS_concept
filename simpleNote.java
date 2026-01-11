@@ -19,7 +19,7 @@ class Student {
     int id;
     String name;
 
-    void study() { }
+    void study() { }}
 
 --------------------------------------------------
 2. OBJECT
@@ -31,8 +31,24 @@ class Student {
 Example:
 Student s1 = new Student();
 
+--------------------------------------------------
+3. ENCAPSULATION
+--------------------------------------------------
+- Wrapping data + methods into one unit (class)
+- Hide data using private
+- Access using getters/setters
+- Prevents direct data misuse
 
-}*/
+Example:
+class BankAccount {
+    private double balance;
+
+    public double getBalance() {
+        return balance;
+    }
+}
+
+*/
 
     }
 }
