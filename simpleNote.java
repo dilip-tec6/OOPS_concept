@@ -61,7 +61,17 @@ Example:
 abstract class Vehicle {
     abstract void start();
 }
+--------------------------------------------------
+5. INHERITANCE
+--------------------------------------------------
+- One class acquires properties of another
+- Uses 'extends'
+- Promotes code reuse
 
+Example:
+class Car extends Vehicle {
+    void start() { }
+}
 */
 
     }
