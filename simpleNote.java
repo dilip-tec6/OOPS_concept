@@ -48,6 +48,20 @@ class BankAccount {
     }
 }
 
+--------------------------------------------------
+4. ABSTRACTION
+--------------------------------------------------
+- Show only important details
+- Hide implementation logic
+- Achieved using:
+  a) abstract class
+  b) interface
+
+Example:
+abstract class Vehicle {
+    abstract void start();
+}
+
 */
 
     }
