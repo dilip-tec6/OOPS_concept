@@ -21,6 +21,17 @@ class Student {
 
     void study() { }
 
+--------------------------------------------------
+2. OBJECT
+--------------------------------------------------
+- Real instance of a class
+- Occupies memory
+- Can access class methods & variables
+
+Example:
+Student s1 = new Student();
+
+
 }*/
 
     }
