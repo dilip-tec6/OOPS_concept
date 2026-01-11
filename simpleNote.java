@@ -72,8 +72,24 @@ Example:
 class Car extends Vehicle {
     void start() { }
 }
-*/
+--------------------------------------------------
+6. POLYMORPHISM
+--------------------------------------------------
+- Same method name, different behavior
+- Two types:
 
+a) Compile-time (Method Overloading)
+   - Same method name
+   - Different parameters
+
+b) Run-time (Method Overriding)
+   - Parent & child class
+   - Same method signature
+
+Example:
+void add(int a, int b)
+void add(double a, double b)
+*/
     }
 }
 
