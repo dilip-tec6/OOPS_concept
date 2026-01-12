@@ -89,6 +89,19 @@ b) Run-time (Method Overriding)
 Example:
 void add(int a, int b)
 void add(double a, double b)
+
+--------------------------------------------------
+7. CONSTRUCTOR
+--------------------------------------------------
+- Special method
+- Same name as class
+- No return type
+- Used to initialize object
+
+Example:
+Student() {
+    id = 0;
+}
 */
     }
 }
