@@ -102,6 +102,24 @@ Example:
 Student() {
     id = 0;
 }
+--------------------------------------------------
+8. THIS KEYWORD
+--------------------------------------------------
+- Refers to current object
+- Used to avoid variable confusion
+
+Example:
+this.id = id;
+
+--------------------------------------------------
+9. SUPER KEYWORD
+--------------------------------------------------
+- Refers to parent class object
+- Access parent constructor or method
+
+Example:
+super.start();
+
 */
     }
 }
