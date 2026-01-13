@@ -120,6 +120,13 @@ this.id = id;
 Example:
 super.start();
 
+--------------------------------------------------
+11. FINAL KEYWORD
+--------------------------------------------------
+final variable  -> value cannot change
+final method   -> cannot override
+final class    -> cannot inherit
+
 */
     }
 }
