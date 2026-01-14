@@ -1,4 +1,16 @@
 package OOPS_Concept;
+class Car{
+    String Color;
+    String Model;
+
+    public void carColor(){
+        System.out.println(this.Color);
+    }
+    public void carModel(){
+        System.out.println(this.Model);
+
+    }
+}
 class Pen{
     String color;
     String type;
@@ -20,8 +32,14 @@ public class Class {
         Pen P2 = new Pen();
         P2.color="Green";
         P2.type="Ball";
-        
+
         P1.printColor();
         P2.printColor();
+
+        Car C1 = new Car();
+        C1.Color = "red";
+        C1.Model = "BMW";
+        C1.carColor();
+        C1.carModel();
     }
 }
