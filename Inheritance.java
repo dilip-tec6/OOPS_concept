@@ -36,6 +36,35 @@ class Child2 extends Parent2 {
 // c2.parentMethod();      // inherited from Parent2
 // c2.childMethod();       // own method
 
+// 3. Hierarchical Inheritance
+// Multiple classes inherit from a single parent class
+class Parent3 {
+    void parentMethod() {
+        System.out.println("Parent3 method");
+    }
+}
+
+class Child3 extends Parent3 {
+    void childMethod1() {
+        System.out.println("Child3 method1");
+    }
+}
+
+class Child4 extends Parent3 {
+    void childMethod2() {
+        System.out.println("Child4 method2");
+    }
+}
+
+// Usage
+// Child3 ch3 = new Child3();
+// ch3.parentMethod(); // from Parent3
+// ch3.childMethod1(); // own method
+//
+// Child4 ch4 = new Child4();
+// ch4.parentMethod(); // from Parent3
+// ch4.childMethod2(); // own method
+
 public class Inheritance {
     public static void main(String[]arg) {
         Triangle t1 = new Triangle();
