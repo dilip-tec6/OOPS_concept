@@ -65,6 +65,30 @@ class Child4 extends Parent3 {
 // ch4.parentMethod(); // from Parent3
 // ch4.childMethod2(); // own method
 
+// 4. Multiple Inheritance (Through Interfaces in Java)
+// Java does not support multiple inheritance with classes directly to avoid ambiguity
+interface Interface1 {
+    void method1();
+}
+
+interface Interface2 {
+    void method2();
+}
+
+class DemoClass implements Interface1, Interface2 {
+    public void method1() {
+        System.out.println("Method1 from Interface1");
+    }
+    public void method2() {
+        System.out.println("Method2 from Interface2");
+    }
+}
+
+// Usage
+// DemoClass d = new DemoClass();
+// d.method1();
+// d.method2();
+
 public class Inheritance {
     public static void main(String[]arg) {
         Triangle t1 = new Triangle();
