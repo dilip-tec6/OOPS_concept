@@ -18,6 +18,12 @@ class Cat extends Animal {
         System.out.println("Cat meows");
     }
 }
+
+class Cow extends Animal {
+    void sound() {
+        System.out.println("moos");
+    }
+}
 public class AnimalPolymorphism {
     public static void main(String[] args) {
 
