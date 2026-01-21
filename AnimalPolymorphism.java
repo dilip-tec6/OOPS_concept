@@ -38,8 +38,10 @@ public class AnimalPolymorphism {
         Animal a2 = new Cat();
         Animal a3 = new Cow();
         Animal a4 = new Buffalo();
-        
+
         a1.sound(); // Dog barks
         a2.sound(); // Cat meows
+        a3.sound(); // Cow moos
+        a4.sound(); // Buffalo Bellows
     }
 }
