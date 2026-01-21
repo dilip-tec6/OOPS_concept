@@ -36,7 +36,9 @@ public class AnimalPolymorphism {
         // Polymorphism: parent reference, child object
         Animal a1 = new Dog();
         Animal a2 = new Cat();
-
+        Animal a3 = new Cow();
+        Animal a4 = new Buffalo();
+        
         a1.sound(); // Dog barks
         a2.sound(); // Cat meows
     }
