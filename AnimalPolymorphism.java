@@ -24,6 +24,12 @@ class Cow extends Animal {
         System.out.println("moos");
     }
 }
+
+class Buffalo extends Animal{
+    void sound (){
+        System.out.println("bellows");
+    }
+}
 public class AnimalPolymorphism {
     public static void main(String[] args) {
 
