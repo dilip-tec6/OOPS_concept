@@ -44,6 +44,8 @@ public class AnimalPolymorphism {
         Animal a2 = new Cat();
         Animal a3 = new Cow();
         Animal a4 = new Buffalo();
+        Animal a5 = new Goat();
+        
 
         a1.sound(); // Dog barks
         a2.sound(); // Cat meows
