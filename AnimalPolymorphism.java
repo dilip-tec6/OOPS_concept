@@ -30,6 +30,12 @@ class Buffalo extends Animal{
         System.out.println("bellows");
     }
 }
+
+class Goat extends Animal{
+     void sound (){
+         System.out.println("bleats");
+     }
+}
 public class AnimalPolymorphism {
     public static void main(String[] args) {
 
