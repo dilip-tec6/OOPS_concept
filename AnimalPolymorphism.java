@@ -8,6 +8,7 @@ class Animal {
 class Dog extends Animal {
     @Override
     void sound() {
+        int name;
         System.out.println("Dog barks");
     }
 }
@@ -37,8 +38,12 @@ class Goat extends Animal{
      }
 }
 public class AnimalPolymorphism {
+    static void makeAnimalSound(Animal animal){
+        System.out.println("Animal Type: " + animal.getClass().getSimpleName());
+        animal.sound();//runtime polymorphism
+    }
     public static void main(String[] args) {
-
+            
         // Polymorphism: parent reference, child object
         Animal a1 = new Dog();
         Animal a2 = new Cat();
