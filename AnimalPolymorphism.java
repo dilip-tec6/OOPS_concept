@@ -43,7 +43,7 @@ public class AnimalPolymorphism {
         animal.sound();//runtime polymorphism
     }
     public static void main(String[] args) {
-            
+
         // Polymorphism: parent reference, child object
         Animal a1 = new Dog();
         Animal a2 = new Cat();
@@ -57,5 +57,12 @@ public class AnimalPolymorphism {
         a3.sound(); // Cow moos
         a4.sound(); // Buffalo Bellows
         a5.sound(); // Goat Bleats
+
+        System.out.println("\n--- Using Polymorphic Method ---");
+        makeAnimalSound(a1);
+        makeAnimalSound(a2);
+        makeAnimalSound(a3);
+        makeAnimalSound(a4); 
+        makeAnimalSound(a5);
     }
 }
