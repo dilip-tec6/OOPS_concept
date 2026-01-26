@@ -37,6 +37,11 @@ class Goat extends Animal{
          System.out.println("bleats");
      }
 }
+class Ox extends Animal {
+    void sound (){
+        System.out.println("beats ");
+    }
+}
 public class AnimalPolymorphism {
     static void makeAnimalSound(Animal animal){
         System.out.println("Animal Type: " + animal.getClass().getSimpleName());
@@ -50,6 +55,8 @@ public class AnimalPolymorphism {
         Animal a3 = new Cow();
         Animal a4 = new Buffalo();
         Animal a5 = new Goat();
+        Animal a6 = new Ox();
+
 
 
         a1.sound(); // Dog barks
@@ -57,6 +64,7 @@ public class AnimalPolymorphism {
         a3.sound(); // Cow moos
         a4.sound(); // Buffalo Bellows
         a5.sound(); // Goat Bleats
+        a6.sound(); // Ox sound
 
         System.out.println("\n--- Using Polymorphic Method ---");
         makeAnimalSound(a1);
@@ -64,5 +72,6 @@ public class AnimalPolymorphism {
         makeAnimalSound(a3);
         makeAnimalSound(a4); 
         makeAnimalSound(a5);
+        makeAnimalSound(a6);
     }
 }
